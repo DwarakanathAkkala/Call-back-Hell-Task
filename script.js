@@ -19,10 +19,11 @@ setTimeout(() => {
                                     setTimeout(() => {
                                         document.querySelector(".container").innerHTML=`<h1>1</h1>`;
                                         setTimeout(() => {
+                                            // Change background on timer end.
                                             document.body.style.background = "url('flag.png') no-repeat right top";
                                             document.body.style.backgroundSize = "cover";
                                             document.querySelector(".container").innerHTML=`<h2>Happy Independence Day</h2>`;
-                                        }); // Callback Hell End
+                                        }, 1000); // Callback Hell End
                                     }, 1000); // Counter 1 End 
                                 }, 1000); // Counter 2 End
                             }, 1000); // Counter 3 End
